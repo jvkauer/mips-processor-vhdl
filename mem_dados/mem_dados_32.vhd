@@ -1,4 +1,7 @@
-library IEEE;
+--------------------------------------------------------------------------------
+-- Memória de Dados (RAM 32-bits) para o MIPS
+--------------------------------------------------------------------------------
+Library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.numeric_std.all;
 
