@@ -1,3 +1,6 @@
+--------------------------------------------------------------------------------
+-- Multiplicador Matricial em Hardware (16/32-bits) para o MIPS
+--------------------------------------------------------------------------------
 Library IEEE;
 USE IEEE.std_logic_1164.all;
 USE IEEE.std_logic_unsigned.all;
