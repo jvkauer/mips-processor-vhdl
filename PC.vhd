@@ -1,3 +1,7 @@
+--------------------------------------------------------------------------------
+-- Contador de Programa (Program Counter - PC 32-bits)
+-- Arquitetura de Processador MIPS 32-bits em VHDL
+--------------------------------------------------------------------------------
 Library IEEE;
 USE IEEE.std_logic_1164.all;
 
