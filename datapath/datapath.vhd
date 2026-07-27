@@ -1,3 +1,7 @@
+--------------------------------------------------------------------------------
+-- Top-level do Fluxo de Dados (Datapath 32-bits MIPS)
+-- Integra Banco de Registradores, ULA e Controle
+--------------------------------------------------------------------------------
 Library IEEE;
 USE IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
