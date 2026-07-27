@@ -72,8 +72,8 @@ As instruções de 32 bits processadas pela arquitetura seguem a divisão padrã
 | Tipo | 31 .. 26 (6b) | 25 .. 21 (5b) | 20 .. 16 (5b) | 15 .. 11 (5b) | 10 .. 6 (5b) | 5 .. 0 (6b) |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|
 | **Tipo-R** | `opcode` | `rs` | `rt` | `rd` | `shamt` | `funct` |
-| **Tipo-I** | `opcode` | `rs` | `rt` | \multicolumn{3}{c|}{`immediate (16 bits)`} |
-| **Tipo-J** | `opcode` | \multicolumn{5}{c|}{`target address (26 bits)`} |
+| **Tipo-I** | `opcode` | `rs` | `rt` | `immediate [15:0]` | `immediate [15:0]` | `immediate [15:0]` |
+| **Tipo-J** | `opcode` | `target [25:0]` | `target [25:0]` | `target [25:0]` | `target [25:0]` | `target [25:0]` |
 
 ### Mapeamento dos Campos:
 - `opcode = instruction[31:26]`: Código de operação.
